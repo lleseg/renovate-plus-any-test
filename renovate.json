@@ -1,7 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ],
-  "prHourlyLimit": 3
+  "extends": ["config:base"],
+  "prHourlyLimit": 10,
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "assignees": ["@lleseg"]
+  }
 }
