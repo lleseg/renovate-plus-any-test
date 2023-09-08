@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@apollo/server": "^4.9.2",
+    "@apollo/server": "4.9.3",
     "@date-io/date-fns": "2.10.0",
     "@date-io/moment": "2.10.0",
     "commander": "2.20.3",
