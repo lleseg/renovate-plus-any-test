@@ -3,7 +3,7 @@
   "extends": ["config:js-app"],
   "packageRules": [
     {
-      "approveMajorUpdates": true,
+      "dependencyDashboardApproval": true,
       "description": "Approve major updates",
       "labels": ["dependencies", "major"],
       "matchUpdateTypes": ["major"]
