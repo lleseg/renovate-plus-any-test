@@ -8,6 +8,7 @@
       "matchUpdateTypes": ["minor", "patch"]
     }
   ],
+  "platformAutomerge": true,
   "prHourlyLimit": 4,
   "vulnerabilityAlerts": {
     "assignees": ["@lleseg"],
