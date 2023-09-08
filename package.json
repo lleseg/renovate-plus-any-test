@@ -10,11 +10,11 @@
   "license": "ISC",
   "dependencies": {
     "@apollo/server": "^4.9.2",
-    "@date-io/date-fns": "2.10.0",
-    "@date-io/moment": "2.10.0",
-    "commander": "2.20.3",
+    "@date-io/date-fns": "^2.10.0",
+    "@date-io/moment": "^2.10.0",
+    "commander": "^2.20.3",
     "graphql": "^16.7.1",
-    "lodash": "4.17.20"
+    "lodash": "^4.17.20"
   },
   "devDependencies": {
     "postcss": "^7.0.34"
