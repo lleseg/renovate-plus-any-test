@@ -10,13 +10,31 @@
     },
     {
       "automerge": true,
-      "description": "Automerge non-major updates",
-      "labels": ["dependencies", "non-major"],
-      "matchUpdateTypes": ["minor", "patch", "pin"]
+      "description": "Automerge digest updates",
+      "labels": ["dependencies", "digest"],
+      "matchUpdateTypes": ["digest"]
+    },
+    {
+      "automerge": true,
+      "description": "Automerge minor updates",
+      "labels": ["dependencies", "minor"],
+      "matchUpdateTypes": ["minor"]
+    },
+    {
+      "automerge": true,
+      "description": "Automerge patch updates",
+      "labels": ["dependencies", "patch"],
+      "matchUpdateTypes": ["patch"]
+    },
+    {
+      "automerge": true,
+      "description": "Automerge pin updates",
+      "labels": ["dependencies", "pin"],
+      "matchUpdateTypes": ["pin"]
     }
   ],
   "platformAutomerge": true,
-  "prHourlyLimit": 4,
+  "prHourlyLimit": 100,
   "vulnerabilityAlerts": {
     "assignees": ["@lleseg"],
     "labels": ["security"]
