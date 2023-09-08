@@ -1,5 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "automergeType": "pr",
   "extends": ["config:js-app"],
   "packageRules": [
     {
@@ -34,7 +35,8 @@
     }
   ],
   "platformAutomerge": true,
-  "prHourlyLimit": 100,
+  "prConcurrentLimit": 20,
+  "prHourlyLimit": 5,
   "vulnerabilityAlerts": {
     "automerge": true,
     "labels": ["dependencies", "security"]
