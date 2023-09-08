@@ -3,9 +3,16 @@
   "extends": ["config:js-app"],
   "packageRules": [
     {
+      "approveMajorUpdates": true,
+      "description": "Approve major updates",
+      "labels": ["dependencies", "major"],
+      "matchUpdateTypes": ["major"]
+    },
+    {
       "automerge": true,
       "description": "Automerge non-major updates",
-      "matchUpdateTypes": ["minor", "patch"]
+      "labels": ["dependencies", "non-major"],
+      "matchUpdateTypes": ["minor", "patch", "pin"]
     }
   ],
   "platformAutomerge": true,
