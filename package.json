@@ -18,6 +18,6 @@
     "rxjs": "^7.8.0"
   },
   "devDependencies": {
-    "postcss": "^7.0.34"
+    "postcss": "^8.0.0"
   }
 }
