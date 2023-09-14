@@ -3,6 +3,5 @@
 # CODEOWNERS prevent renovate automerge since it will automatically ask for review
 # See documentation for more details: https://docs.renovatebot.com/automerge-configuration/
 # Solution: make files used by renovate owned by everyone
-**/*/go.mod
-**/*/package.json
-**/*/package-json.lock
+package.json
+package-lock.json
