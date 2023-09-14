@@ -1,3 +1,3 @@
 * @lleseg
-package.json @lleseg @app/renovate-approve
-package-lock.json @lleseg @app/renovate-approve
+package.json @lleseg @renovate-approve
+package-lock.json @lleseg @renovate-approve
