@@ -1,0 +1,5 @@
+version: "3.5"
+services:
+  redis_dev:
+    image: redis:3.0-alpine
+    container_name: redis_dev

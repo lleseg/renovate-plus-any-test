@@ -4,5 +4,6 @@
 # See documentation for more details: https://docs.renovatebot.com/automerge-configuration/
 # Solution: make files used by renovate owned by everyone
 Dockerfile
+docker-compose.yml
 package.json
 package-lock.json
