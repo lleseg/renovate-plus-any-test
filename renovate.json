@@ -29,9 +29,15 @@
     },
     {
       "automerge": true,
-      "description": "Automerge pin updates",
+      "description": "Auto-merge pin updates",
       "labels": ["dependencies", "pin"],
       "matchUpdateTypes": ["pin"]
+    },
+    {
+      "automerge": true,
+      "description": "Auto-merge pin digest updates",
+      "labels": ["dependencies", "pinDigest"],
+      "matchUpdateTypes": ["pinDigest"]
     }
   ],
   "platformAutomerge": true,
