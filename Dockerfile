@@ -1,1 +1,1 @@
-FROM node:18.18.0
+FROM python:3.10.8-slim-buster
