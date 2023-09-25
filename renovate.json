@@ -10,8 +10,8 @@
       "matchUpdateTypes": ["major"]
     },
     {
-      "automerge": true,
-      "description": "Auto-merge digest updates",
+      "dependencyDashboardApproval": true,
+      "description": "Approve digest updates",
       "labels": ["dependencies", "digest"],
       "matchUpdateTypes": ["digest"]
     },
