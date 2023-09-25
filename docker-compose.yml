@@ -1,5 +1,5 @@
 version: "3.5"
 services:
   mysql_dev:
-    image: mysql:8.0@sha256:a7a96a9dbf6f310703c4e0c61086b23c5835c33a05544cdc952a7cd0b8feb675
+    image: mysql:8.1@sha256:566007208a3f1cc8f9df6b767665b5c9b800fc4fb5f863d17aa1df362880ed04
     container_name: mysql_dev
